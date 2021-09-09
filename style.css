@@ -20,7 +20,7 @@ html {
 
 header {
     background-color: burlywood;
-    padding: 150px 0px;
+    padding: 100px 0px;
     text-align: center;
 }
 
@@ -72,6 +72,12 @@ input[type=submit]:hover {
 
 .result {
     background-color: rgb(254, 254, 254);
+}
+
+footer {
+    padding: 15px 5px 5px;
+    text-align: center;
+    background-color: rgb(220, 217, 217);
 }
 
 
