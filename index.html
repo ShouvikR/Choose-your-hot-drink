@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Toffee</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main>
+      <header class="wrapper">
+        <h1>Toffee: Your "Hot_treat" place!</h1>
+      </header>
+
+      <section class="wrapper">
+        <form action="#">
+          <fieldset class="drink">
+            <p>What you're preferring now, Coffee or Tea?</p>
+
+            <input type="radio" name="beverage" id="coffee" value="coffee" />
+            <label for="coffee">Coffee</label>
+
+            <input type="radio" name="beverage" id="tea" value="tea" />
+            <label for="tea">Tea</label>
+          </fieldset>
+
+          <fieldset class="price">
+            <p>How much you want to spend?</p>
+
+            <input type="radio" name="price" id="expensive" value="$$" />
+            <label for="expensive">$$</label>
+
+            <input type="radio" name="price" id="reasonable" value="$" />
+            <label for="reasonable">$</label>
+
+            <div class="submit-form">
+              <input type="submit" value="Get my place" />
+            </div>
+          </fieldset>
+        </form>
+      </section>
+
+      <section class="wrapper result">
+        <!-- Dynamic elements gonna display here -->
+      </section>
+    </main>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
